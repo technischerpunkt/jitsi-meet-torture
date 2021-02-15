@@ -84,7 +84,7 @@ case $1 in
     fi
 
     if [ -z "$INSTANCE_URL" ]; then
-      INSTANCE_URL='https://meet.jit.si'
+      INSTANCE_URL='https://jitsi.staging.technischer.org'
     fi
 
     if [ -z "$USE_NODE_TYPES" ]; then
